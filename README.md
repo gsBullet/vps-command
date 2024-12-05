@@ -1,6 +1,7 @@
 <h1 align="center">VPS COMMAND</h1>
 
+<h3>apache install</h3>
 
-<span>apache install</span>
-    ssh <user>@<ip_address>
+    sudo apt-get update
+    sudo apt install apache2
 
