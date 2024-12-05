@@ -1,6 +1,6 @@
 <h1 align="center">VPS COMMAND</h1>
 
-...bash
 
+<span>apache install</span>
     ssh <user>@<ip_address>
-...
+
