@@ -1,1 +1,1 @@
-<h1>VPS COMMAND</h1>
+<h1 align="center">VPS COMMAND</h1>
