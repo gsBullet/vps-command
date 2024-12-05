@@ -2,5 +2,5 @@
 
 ...bash
 
-ssh <user>@<ip_address>
+    ssh <user>@<ip_address>
 ...
