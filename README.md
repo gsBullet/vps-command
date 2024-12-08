@@ -1,21 +1,23 @@
 <h1 align="center">VPS COMMAND</h1>
 
-AWS Ubuntu Server Setup Lesson Outline
-#1. AWS Account Preparation
+# AWS Ubuntu Server Setup Lesson Outline
+# 1. AWS Account Preparation
 
 Create an AWS account if you don't have one
-Go to AWS Management Console
-Navigate to EC2 service
+
+      -Go to AWS Management Console
+      -Navigate to EC2 service
 
 #2. Launch an Ubuntu EC2 Instance
  EC2 Instance Creation Steps:
  1. Choose Ubuntu Server LTS (Long Term Support) AMI
  2. Select instance type (t2.micro is free tier eligible)
  3. Configure security group to allow:
-    - SSH (Port 22)
-    - HTTP (Port 80)
-    - HTTPS (Port 443)
-    - Custom TCP (Port 3000 for Node.js)
+    
+        - SSH (Port 22)
+        - HTTP (Port 80)
+        - HTTPS (Port 443)
+        - Custom TCP (Port 3000 for Node.js)
 
 # 3. Initial Server Setup Commands
 
@@ -159,10 +161,10 @@ Typical deployment process
     
 # recommended Additional Security
 
--Implement fail2ban for intrusion prevention
--Regular security audits
--Use SSH key-based authentication
--Disable root login
+    -Implement fail2ban for intrusion prevention
+    -Regular security audits
+    -Use SSH key-based authentication
+    -Disable root login
 
 Monitoring and Logging
 
@@ -174,19 +176,19 @@ Monitoring and Logging
 
 # Estimated Time Investment
 
--Initial Setup: 1-2 hours
--Configuration: 2-3 hours
--Security Hardening: 1-2 hours
+    -Initial Setup: 1-2 hours
+    -Configuration: 2-3 hours
+    -Security Hardening: 1-2 hours
 
 # Learning Objectives
 
--Cloud server management
--Linux system administration
--Web application deployment
--Security best practices
--Nginx configuration
--Process management
--SSL implementation
+     -Cloud server management
+     -Linux system administration
+     -Web application deployment
+     -Security best practices
+     -Nginx configuration
+     -Process management
+     -SSL implementation
 
 # Recommended Next Steps
 
