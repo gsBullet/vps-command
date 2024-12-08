@@ -138,30 +138,31 @@ Set environment variables
 
 # Recommended Tools
 
-AWS Elastic IP (static IP)
-AWS Security Groups
-CloudWatch for monitoring
-AWS Secrets Manager for credential management
+-AWS Elastic IP (static IP)
+-AWS Security Groups
+-CloudWatch for monitoring
+-AWS Secrets Manager for credential management
 
 # Cost Optimization
 
-Use AWS Free Tier
-Stop/Terminate instances when not in use
-Choose appropriate instance types
+-Use AWS Free Tier
+-Stop/Terminate instances when not in use
+-Choose appropriate instance types
 
-Deployment Workflow
+# Deployment Workflow
 
-# Typical deployment process
+Typical deployment process
+
     git pull origin main
     npm install
     pm2 restart server
     
 # recommended Additional Security
 
-Implement fail2ban for intrusion prevention
-Regular security audits
-Use SSH key-based authentication
-Disable root login
+-Implement fail2ban for intrusion prevention
+-Regular security audits
+-Use SSH key-based authentication
+-Disable root login
 
 Monitoring and Logging
 
@@ -173,23 +174,23 @@ Monitoring and Logging
 
 # Estimated Time Investment
 
-Initial Setup: 1-2 hours
-Configuration: 2-3 hours
-Security Hardening: 1-2 hours
+-Initial Setup: 1-2 hours
+-Configuration: 2-3 hours
+-Security Hardening: 1-2 hours
 
 # Learning Objectives
 
-Cloud server management
-Linux system administration
-Web application deployment
-Security best practices
-Nginx configuration
-Process management
-SSL implementation
+-Cloud server management
+-Linux system administration
+-Web application deployment
+-Security best practices
+-Nginx configuration
+-Process management
+-SSL implementation
 
 # Recommended Next Steps
 
-Learn Docker for containerization
-Explore CI/CD pipelines
-Study advanced security techniques
-Understand load balancing
+-Learn Docker for containerization
+-Explore CI/CD pipelines
+-Study advanced security techniques
+-Understand load balancing
