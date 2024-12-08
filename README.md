@@ -192,7 +192,7 @@ Monitoring and Logging
 
 # Recommended Next Steps
 
--Learn Docker for containerization
--Explore CI/CD pipelines
--Study advanced security techniques
--Understand load balancing
+      -Learn Docker for containerization
+      -Explore CI/CD pipelines
+      -Study advanced security techniques
+      -Understand load balancing
