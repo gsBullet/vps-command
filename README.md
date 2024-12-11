@@ -192,6 +192,13 @@ Monitoring and Logging
       	ErrorLog ${APACHE_LOG_DIR}/error.log
       </VirtualHost>
 
+
+# Enable the Site and Reload Apache2
+
+
+      sudo a2ensite product-portfolio.conf
+      sudo systemctl reload apache2
+
 # Estimated Time Investment
 
     -Initial Setup: 1-2 hours
