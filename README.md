@@ -174,6 +174,24 @@ Monitoring and Logging
 # System logs
     journalctl -u nginx
 
+# apache server setup
+
+      
+      <VirtualHost *:80>
+      	ServerName example.com
+      	ProxyPreserveHost on
+      	ProxyPass / http://localhost:3005/
+      	ProxyPassReverse / http://localhost:3005/
+      	ErrorLog ${APACHE_LOG_DIR}/error.log
+      </VirtualHost>
+      <VirtualHost *:80>
+      	ServerName  backend.example.com
+      	ProxyPreserveHost on
+      	ProxyPass / http://localhost:5053/
+      	ProxyPassReverse / http://localhost:5053/
+      	ErrorLog ${APACHE_LOG_DIR}/error.log
+      </VirtualHost>
+
 # Estimated Time Investment
 
     -Initial Setup: 1-2 hours
