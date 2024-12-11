@@ -193,6 +193,27 @@ Monitoring and Logging
       </VirtualHost>
 
 
+# extra for IP
+
+      <VirtualHost *:80>
+          ServerName Your IP
+      
+          ProxyPreserveHost On
+      
+          # Proxy requests to Next.js
+          ProxyPass / http://localhost:3000/
+          ProxyPassReverse / http://localhost:3000/
+      
+          # WebSocket Support
+          RewriteEngine On
+          RewriteCond %{HTTP:Upgrade} =websocket [NC]
+          RewriteRule /(.*) ws://localhost:3000/$1 [P,L]
+      
+          ErrorLog ${APACHE_LOG_DIR}/error.log
+          CustomLog ${APACHE_LOG_DIR}/access.log combined
+      </VirtualHost>
+
+
 # Enable the Site and Reload Apache2
 
 
