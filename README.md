@@ -77,6 +77,11 @@ Nginx Configuration Example:
     pm2 startup systemd
     sudo pm2 startup
     pm2 save
+    
+Start the Next.js app with PM2:
+
+      pm2 start npm --name "product-portfolio" -- run dev --watch
+
 
 # 7. SSL/HTTPS Setup with Certbot
 
