@@ -117,6 +117,7 @@ education purpose you can enable ufw  but when it use it production just allow p
 
     sudo ufw enable
 
+# add rules in aws very important, must check this to get firewall
 # 9. Git and Project Deployment
 
  Clone your project repository
