@@ -65,6 +65,15 @@ Nginx Configuration Example:
     }
     }
 
+NGINX command
+
+      sudo systemctl start nginx
+      sudo systemctl status nginx
+      sudo systemctl enable nginx
+      sudo systemctl stop nginx
+      sudo systemctl restart nginx
+
+  
 # 6. Process Management with PM2
 
  Install PM2 globally
