@@ -11,6 +11,8 @@
         sudo systemctl status mongod
 # If it’s not running:
     sudo systemctl start mongod
+# Enable MongoDB to start on boot (currently disabled):
+        sudo systemctl enable mongod
 # Bind IP configuration localhost (127.0.0.1).
     sudo nano /etc/mongod.conf
 
