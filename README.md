@@ -32,8 +32,8 @@ Update package lists
 # 4. Node.js and NPM Installation
 
  Install Node.js using NodeSource repository
- 
-    curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+
+    curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
     sudo apt install -y nodejs
 
  Verify installations
